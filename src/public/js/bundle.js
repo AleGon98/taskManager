@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nalert(\"VueJS goes here\");\n\n//# sourceURL=webpack:///./src/app/index.js?");
+eval("\n\nalert(\"VueJS\");\n\n//# sourceURL=webpack:///./src/app/index.js?");
 
 /***/ })
 

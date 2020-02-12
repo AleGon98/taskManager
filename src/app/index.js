@@ -1,1 +1,1 @@
-alert("VueJS goes here");
+import Vue from "vue";
