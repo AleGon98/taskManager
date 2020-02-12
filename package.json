@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "webpack": "webpack --mode development"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +14,15 @@
     "express": "^4.17.1",
     "mongoose": "^5.8.11",
     "morgan": "^1.9.1",
-    "nodemon": "^2.0.2",
-    "webpack": "^4.41.6"
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "vue-loader": "^15.8.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
   }
 }
